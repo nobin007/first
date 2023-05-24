@@ -1,9 +1,236 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hellow</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Design Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h2>Hello github</h2>
+	<div class="container">
+		<h1 class="main-title">Web Design Tutorial</h1>
+		<h4 class="html_t">HTML Tutorial</h4>
+		<div class="html_sec">
+			<div class="bg-sec">
+				<h3 class="sec-title">Practice No: 1</h3>
+				<p class="sub-title">The language for building web pages</p>
+				<pre>
+				    <code>
+					        &lt;!DOCTYPE html&gt;  
+						&lt;html&gt;
+						  &lt;head&gt;
+							&lt;title&gt;Page Title&lt;/title&gt;
+						  &lt;/head&gt;
+						  &lt;body&gt;
+							&lt;h1&gt;This is a Heading&lt;/h1&gt;
+							&lt;p&gt;This is a paragraph.&lt;/p&gt;
+						  &lt;/body&gt;
+						&lt;/html&gt;
+					</code>
+				</pre>
+				
+			</div>
+			<div class="html_tags_dt bg-sec">
+				<h3 class="sec-title">Practice No: 2</h3>
+				<p class="sub-title">HTML Basic Tag</p>
+				<div class="tags_content d-flex ">
+					<div>
+						h1, h2, h3, h4, h5, h6, p, a, button, img, ul, span, strong, br, hr, from, div, nav, header, footer, 
+					</div>
+					<div class="tags_exm">
+						<ul>
+							<li>&lt;h1&gt;This is heading 1&lt;/h1&gt;</li>
+							<li>&lt;h2&gt;This is heading 2&lt;/h2&gt;</li>
+							<li>&lt;h3&gt;This is heading 3&lt;/h3&gt;</li>
+							<li>&lt;h4&gt;This is heading 4&lt;/h4&gt;</li>
+							<li>&lt;h5&gt;This is heading 5&lt;/h5&gt;</li>
+							<li>&lt;h6&gt;This is heading 6&lt;/h6&gt; </li>
+							 <li>&lt;p&gt;HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.&lt;/p&gt;</li> 
+							 <li>&lt;p&gt;My mother has &lt;span style="color:blue"&gt;blue&lt;/span&gt; eyes&lt;/p&gt; </li>
+							
+
+						  <li>&lt;p&gt;To force&lt;br&gt; line breaks&lt;br&gt; in a text,&lt;br&gt; use the br&lt;br&gt; element.&lt;/p&gt; </li>
+
+						 <li>&lt;a href="https://www.w3schools.com"&gt;Visit W3Schools.com!&lt;/a&gt; </li>
+
+						 <li> &lt;button type="button"&gt;Click Me!&lt;/button&gt; </li>
+
+						 <li>&lt;img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"&gt; </li>
+						 <li> &lt;strong &gt;Bold text&lt;/strong&gt; </li>
+						 	<li>&lt;ul&gt;
+							 <br> &lt;li&gt;Coffee&lt;/li&gt;
+							 <br> &lt;li&gt;Tea&lt;/li&gt;
+							  <br>&lt;li&gt;Milk&lt;/li&gt;
+							<br>&lt;/ul&gt; </li>
+						    <li>&lt;ol&gt;
+							 	<br> &lt;li&gt;Coffee&lt;/li&gt;
+							  	<br>&lt;li&gt;Tea&lt;/li&gt;
+							  	<br>&lt;li&gt;Milk&lt;/li&gt;<br>
+							&lt;/ol&gt;</li>
+
+
+							<li>&lt;hr&gt;</li>
+
+							<li>&lt;p&gt;CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.&lt;/p&gt;</li>
+							<li>&lt;table&gt;
+							  <br>&lt;tr&gt;
+							   <br> &lt;th&gt;Month&lt;/th&gt;
+							    <br>&lt;th&gt;Savings&lt;/th&gt;
+							  <br>&lt;/tr&gt;
+							  <br>&lt;tr&gt;
+							    <br>&lt;td&gt;January&lt;/td&gt;
+							    <br>&lt;td&gt;$100&lt;/td&gt;
+							 <br> &lt;/tr&gt;
+							<br>&lt;/table&gt; </li>
+							 <li>&lt;form action="/action_page.php" method="get"&gt;
+							  <br>&lt;label for="fname"&gt;First name:&lt;/label&gt;
+							  <br>&lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;
+							  <br>&lt;label for="lname"&gt;Last name:&lt;/label&gt;
+							 <br> &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;
+							 <br> &lt;input type="submit" value="Submit"&gt;
+							 <br> &lt;input type="password" placeholder="password"&gt;
+							 <br> &lt;input type="checkbox" placeholder=""&gt;
+							 <br> &lt;input type="radio" placeholder=""&gt;
+							<br>&lt;/form&gt; </li>
+							<li> &lt;label for="cars"&gt;Choose a car:&lt;/label&gt;</li>
+
+							<li>&lt;select id="cars"&gt;
+							  <br>&lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+							  <br>&lt;option value="saab"&gt;Saab&lt;/option&gt;
+							  <br>&lt;option value="opel"&gt;Opel&lt;/option&gt;
+							  <br>&lt;option value="audi"&gt;Audi&lt;/option&gt;
+							<br>&lt;/select&gt; </li>
+							 <li>&lt;label for="w3review"&gt;Review of W3Schools:&lt;/label&gt;</li>
+
+							<li>&lt;textarea id="w3review" name="w3review" rows="4" cols="50"&gt;
+							At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+							<br>&lt;/textarea&gt; </li>
+							<li> &lt;article&gt;
+							  <br>&lt;header&gt;
+							    <br>&lt;h1&gt;A heading here&lt;/h1&gt;
+							    <br>&lt;p&gt;Posted by John Doe&lt;/p&gt;
+							    <br>&lt;p&gt;Some additional information here&lt;/p&gt;
+							  <br>&lt;/header&gt;
+							  <br>&lt;p&gt;Lorem Ipsum dolor set amet....&lt;/p&gt;
+							<br>&lt;/article&gt; </li>
+						  
+						 
+						   <li>&lt;div class="myDiv"&gt;<br>
+							  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;<br>
+							  &lt;p&gt;This is some text in a div element.&lt;/p&gt;<br>
+							&lt;/div&gt;</li>
+							 <li>&lt;nav&gt;
+							 <br> &lt;a href="/html/"&gt;HTML&lt;/a&gt; |
+							  <br>&lt;a href="/css/"&gt;CSS&lt;/a&gt; |
+							  <br>&lt;a href="/js/"&gt;JavaScript&lt;/a&gt; |
+							  <br>&lt;a href="/python/"&gt;Python&lt;/a&gt;
+							<br>&lt;/nav&gt; </li>
+							 <li>&lt;footer&gt;
+							  <br>&lt;p&gt;Author: Hege Refsnes&lt;/p&gt;
+							  <br>&lt;p&gt;&lt;a href="mailto:hege@example.com"&gt;hege@example.com&lt;/a&gt;
+							  <br>&lt;/p&gt;
+							<br>&lt;/footer&gt; </li>
+							 
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="css_sec bg-sec">
+			<h4 class="html_t">CSS Tutorial</h4>
+			<div class="css_content">
+				<h3 class="sec-title">Practice No: 3</h3>
+				<p class="sub-title">CSS Basic Syle</p>
+				<div class="d-flex ">
+					<div>
+						font-size:, font-weight:, text-decoration:, font-style:, line-height:, text-align:,  padding: , margin: ,border:, border-radius:, text-shadow:, width: , height:, color: , background: , display:, float: , flex: , grid: , gap: ,  text-transform: ,letter-spacing:, transition:, overflow:, hover:, ,z-index:, opacity:,
+					</div>
+					<div class="example_content">
+						p{
+							<br>font-size: 20px;
+						  	<br>font-weight: 500;
+						  	<br>text-decoration: underline;
+						  	<br>font-style: italic;
+						  	<br>line-height: 20px;
+						  	<br>text-align: center;
+						  	<br>padding: 15px;
+						  	<br>margin: 10px;
+						  	<br>border: 1px solid red;
+						  	<br>border-radius: 20px;
+						  	<br>box-shadow: 10px 10px lightblue;
+						  	<br>text-shadow: 2px 2px #ff0000;
+
+					    <br>}
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="struc_sec mt-4 ">
+			<h4 class="html_t">Structure Tutorial</h4>
+			<div class="struc_content">
+				<h3 class="sec-title">Practice No: 4</h3>
+				<p class="sub-title">structure Build Idea</p>
+				
+				<div class="example_content">
+					<div class="example-one">
+						<div class="left_box box">
+							Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Adipisci molestiae nulla quo veniam fuga, aspernatur similique dolore provident fugiat? Voluptatibus ab error illum quaerat impedit magnam eos pariatur, expedita, similique.
+						</div>
+						<div class="right_box box">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reiciendis laboriosam unde atque saepe similique, accusantium doloribus tempore dignissimos vero maiores distinctio quod adipisci. Mollitia quod doloremque, quibusdam quas cupiditate!
+						</div>
+					</div>
+					<div class="example-one">
+						<div class="box-one box">
+							Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Adipisci molestiae nulla quo veniam fuga, aspernatur similique dolore provident fugiat? Voluptatibus ab error illum quaerat impedit magnam eos pariatur, expedita, similique.
+						</div>
+						<div class="oox-two box">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reiciendis laboriosam unde atque saepe similique, accusantium doloribus tempore dignissimos vero maiores distinctio quod adipisci. Mollitia quod doloremque, quibusdam quas cupiditate!
+						</div>
+						<div class="box-three box">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reiciendis laboriosam unde atque saepe similique, accusantium doloribus tempore dignissimos vero maiores distinctio quod adipisci. Mollitia quod doloremque, quibusdam quas cupiditate!
+						</div>
+						
+					</div>
+					<div class="grid-container">
+					  <div class="item1">Header</div>
+					  <div class="item2">Menu</div>
+					  <div class="item3">Main</div>  
+					  <div class="item4">Right</div>
+					  <div class="item5">Footer</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="practice mt-4 bg-sec">
+			<div class="">
+				<div class="">
+					<h3 class="sec-title">Practice No: 5</h3>
+					<p class="sub-title">Build Website</p>
+				</div>
+				<div class="">
+					<ul>
+						<li><a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm">Link 1</a></li>
+						<li><a href="https://www.w3schools.com/w3css/tryw3css_templates_architect.htm">Link 2</a></li>
+						<li><a href="https://www.w3schools.com/w3css/tryw3css_templates_blog.htm">Link 3</a></li>
+						<li><a href="https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm">Link 4</a></li>
+						<li><a href="https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm">Link 5</a></li>
+						<li><a href="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm#about">Link 6</a></li>
+					</ul>
+					
+				</div>
+				<div class="">
+					<h3 class="sec-title">Practice No: 6</h3>
+					<p class="sub-title">Responsive All This Website</p>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
 </body>
 </html>
